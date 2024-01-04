@@ -1,0 +1,35 @@
+.section-services{
+ 
+  text-align: center;
+  align-items: center;
+  margin:3rem;
+}
+.section-services .row{
+  display: flex;
+  justify-content: space-between;
+}
+.services{
+  background-color:#F0F1EE ;
+  padding: 2rem;
+   border-radius: 20px; width: 30%; 
+   margin-bottom: 1rem;
+  
+}
+
+.services  p {
+  color: black;
+  margin: auto;
+ 
+}
+.services svg {
+  color: #FF4A4F;
+  font-size: 2.5rem;
+
+}
+@media only screen and (max-width: 600px) {
+  .services {
+    width: 100%;
+   
+    
+  }
+}

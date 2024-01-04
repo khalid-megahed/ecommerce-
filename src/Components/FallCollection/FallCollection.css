@@ -1,0 +1,15 @@
+.fallcollection{
+  padding: 1rem;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  background-color: #F0F1EE;
+}
+.fallcollection h1{
+  margin: 1rem 0 2rem 0;
+  font-weight: 600;
+}
+.fallcollection span{
+  color: #FF4A4F;
+}
+

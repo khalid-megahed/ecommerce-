@@ -1,0 +1,55 @@
+/* SearchComponent.css */
+.searchcomponent{
+  align-items: center;
+  text-align: center;
+  padding: 20vh 0 ;
+  height: 90vh;
+  background-color: bisque;
+}
+.search-container {
+
+  width: 70%;
+  margin:  auto;
+ padding: 20px;
+  border: 0 ;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3 );
+  animation: fadeIn 0.5s ease; /* Add fade-in animation */
+}
+
+.search-input {
+  width:100%;
+  padding: 8px;
+  margin: auto;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+
+.search-results {
+  list-style: none;
+  padding: 0;
+}
+
+.search-results li {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  transition: background-color 0.3s ease; /* Add transition for a smoother effect */
+}
+
+.search-results li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Keyframe for fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
